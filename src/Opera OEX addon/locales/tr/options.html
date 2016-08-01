@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Eklenti Tercihleri</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+
+	<body>
+		<div id="options">
+			<h1><script>document.write(widget.name);</script> Tercihler</h1>
+			<p><img class="pic" src="icons/icon.png" /></p>
+			<ul class="opts">
+                <li>
+                    <label for="previewpic">Ön İzleme Şekli </label>
+                    <select id="previewpic">
+                        <option value="0">Küçük resim</option>
+                        <option value="1">Simge şeklinde</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="previewurl">Ön İzleme Oluşturma Aracısı </label>
+                    <select id="previewurl">
+                        <option value="0">api.thumbalizr.com</option>
+                        <option value="1">api.webthumbnail.org</option>
+						<option value="2">immediatenet.com</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="showbutton">Eklenti düğmesini araç çubuğunda göster </label>
+					<input type="checkbox" id="showbutton" />
+                </li>
+            </ul>
+            <input id="savebutton" type="submit" value="Tercihleri Kaydet" />
+			<p><em>Tercihlerinizi kaydettikten sonra lütfen klavyenizdeki F5 tuşuna basarak sayfayı yenileyin.</em></p>
+            <p class="small">
+                <a href="http://gwendragon.de/tools/opera/extensions/#searchenginepreview">
+                <script>document.write(widget.name);</script></a>
+				<script>document.write(widget.version);</script>,
+                Geliştirici: <a href="http://gwendragon.de">GwenDragon</a>
+            </p>
+		</div>
+		<script src="js/prefs.js"></script>
+	</body>
+
+</html>
